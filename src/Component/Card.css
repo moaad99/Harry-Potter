@@ -1,0 +1,15 @@
+.al{
+    display: flex;
+}
+
+@media all and (max-width: 600px){
+    .al{
+        display: block;
+    }
+    .card{
+        margin-inline: -199px;
+        
+        max-width: 299px;
+    }
+
+}

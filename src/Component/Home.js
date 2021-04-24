@@ -1,17 +1,21 @@
 import React from 'react'
 import './Home.css'
+import {Link} from 'react-router-dom'
 
 export default function Home() {
     return (
         <div className="bod" >
+
+            <img className="harr" src="https://logo-marque.com/wp-content/uploads/2020/04/Harry-Potter-Logo.png" alt=""/>
              <div className="all">
                  <div className="intro">
-                        <h1>
+                        <h1 style={{fontFamily:"serif"}}>
                            <strong> Welcome to Harry Potter universe, 
 the universe of the wizarding world   Where you will find all characters</strong> 
                         </h1>
 <br/>
-                        <button  type="button" className="btn btn-block btn-dark">View all caracters</button>
+<Link to='/charact' >                        <button  type="button" className="btn btn-block btn-dark">View all caracters</button>
+</Link>
                  </div>
                 
              </div>

@@ -5,13 +5,19 @@
     height: 50.17em;
 
 }
+.harr{
+    height: 200px;
+    width: 500px;
+    margin-inline: 450px;
+}
 .bod{
+    
     background-image: url("https://raw.githubusercontent.com/moaad99/img/main/harr.jpg?token=AO5IITVDY7QNJEBD2WESZ63AROKAW");
 }
 .intro{
     flex: 0.4;
    
-margin-top: 90px;
+margin-top: -30px;
 padding: 40px;
 margin-inline: 80px;
 
@@ -35,6 +41,11 @@ margin-inline: 80px;
 @media all and (min-width:0px) and (max-width:870px){
     .intro{
         margin-inline: 30px;
+    }
+    .harr{
+        margin-inline: 40px;
+        height: 140px;
+        width: 260px;
     }
 .intro h1 {
     text-align: justify;

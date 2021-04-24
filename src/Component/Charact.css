@@ -1,0 +1,40 @@
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.g{
+    height: 200px;
+    width: 500px;
+    margin-inline: 550px;
+}
+@media all and (max-width: 600px){
+    .search{
+        display: block;
+    }
+    .z{
+        margin-inline: 10px;
+    }
+    .g{
+        margin-inline: 40px;
+        height: 140px;
+        width: 260px;
+    }
+}
+.b{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bt{
+    height: 47px;
+    margin-top: 3px;
+    width: 130px;
+}
+.inp{
+    font-size: 25px;
+    margin-top: 2px;
+    margin-inline: 10px;
+
+    
+}
