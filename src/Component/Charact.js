@@ -2,6 +2,8 @@ import React , {useState,useEffect} from 'react'
 import Card from './Card'
 import axios from "axios"
 import {Link} from 'react-router-dom'
+import * as mdb from 'mdb-ui-kit';
+import { Input } from 'mdb-ui-kit';
 import './Charact.css'
 export default function Charact() {
 
