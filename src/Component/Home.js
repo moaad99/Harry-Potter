@@ -14,7 +14,7 @@ export default function Home() {
 the universe of the wizarding world   Where you will find all characters</strong> 
                         </h1>
 <br/>
-<Link to='/charact' >                        <button  type="button" className="btn btn-block btn-dark">View all caracters</button>
+<Link style={{textDecoration:'none'}} to='/charact' >                        <button  type="button" className="btn btn-block btn-dark">View all caracters</button>
 </Link>
                  </div>
                 
